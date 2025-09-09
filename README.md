@@ -2,12 +2,6 @@
 This is a documentation about the registration form 
 # Project-Registration-Form
  This is a detailed documentation about the registation form 
-# File Structure Explanation
-The repository contains the following files:
-project-folder/
-│
-├── index.html   /* The main file, containing the HTML code for the registration form /
-├── README.md    / This document, providing detailed information about the repository */
 # Implementation Notes
 Here are some important points about the form implementation approach:
 
