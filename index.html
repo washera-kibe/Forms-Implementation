@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            First Name: <input type = "text" name = "first_name" /> <br><br>
+            Last Name: <input type = "text" name = "last_name" /> <br><br>
+            Date of Birth : <input type = "date" name = "newinput" /> <br><br>
+            Age: <input type = "text" name = "age" size="3"/> <br><br>
+            Gender: <br>
+            <input type = "radio" name = "text" value = "Male"> Male <br>
+            <input type = "radio" name = "text" value = "Female"> Female <br><br>
+            Profile Photo: <input type = "file" name = "fileupload" accept = "image/*" /> <br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Contact & Address Information</legend>
+            Email Address: <input type = "text" name = "email_address" /> <br><br>
+            Phone Number: <input type = "text" name = "phone_number" /> <br><br>
+            Personal Website: <input type = "email" name = "mail" placeholder = "https://example.com"/><br><br>
+            Street Address: <input type = "text" name = "street_address" /> <br><br>
+            City: <input type = "text" name = "city" /> <br><br>
+            Country: <select name = "dropdown"> <option value = "Select the Country" selected>Select Country</option> </select> <br><br>
+            ZIP/Postal Code: <input type = "text" name = "postal_code" /> <br><br>
+            Preferred Contact Time: <input type = "time" name = "newinput" /> <br><br>
+             </fieldset>
+            
+            <fieldset>
+            <legend>Preferences & Interests</legend>
+            Favorite Color: <input type = "color" id = "favcolor" name = "favcolor" value = "#ff0000"> <br><br>
+            Experience Level (1-10):  Select Range : <input type = "range" min = "0" max = "10" value = "5" name = "newinput" /> <br><br>
+            Birth Month: <input type = "month" name = "newinput" /> <br><br>
+            Available Week: <input type = "week" name = "newinput" />  <br><br>
+            Search Keywords: <input type = "text" name = "keyword" placeholder = "Enter Keywords..."/> <br><br>
+            Interests (Select all that apply): <br><input type = "checkbox" name = "technology" value = "on"> Technology <br> <input type = "checkbox" name = "sports" value = "on"> Sports<br> <input type = "checkbox" name = "music" value = "on"> Music<br> <input type = "checkbox" name = "travel" value = "on"> Travel<br> <input type = "checkbox" name = "reading" value = "on"> Reading<br> <input type = "checkbox" name = "cooking" value = "on"> Cooking<br><br>
+            Education Level: <select name = "dropdown">
+                 <option value = "select" selected>Select Education Level</option>
+                  <option value = "Techiary">Techiary</option>
+                  <option value = "Secondary">Secondary</option>
+                 </select> <br><br>
+            Create Password:  <input type = "password" name = "password" /><br><br>
+            Confirm Password: <input type = "password" name = "password" /> <br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Feedback & Additional Information</legend>
+            Tell us about yourself: <br><textarea rows = "5" cols = "50" name = "description"> Write a brief description about yourself... </textarea> <br><br>
+            Suggestions for improvement: <br><textarea rows = "5" cols = "50" name = "description">Any suggestions or feedback... </textarea>  <br><br>
+            Registration Date & Time: <input type = "date" name = "newinput" /><br><br>
+            How did you hear about us?: <select name = "dropdown">
+                 <option value = "select-source" selected>Select Source</option>
+                  <option value = "internetF">Internet</option>
+                  <option value = "through-friends">Through-friends</option>
+                 </select> <br><br>
+            Upload Resume (optional):<input type = "file" name = "fileupload" accept = "image/*" /> <br><br> 
+            <input type = "checkbox" name = "Subscribe-to-our-news-letter" value = "on"> Subscribe to our news letter <br><br>
+            <input type = "checkbox" name = "I-agree-to-the-terms-and-conditions" value = "on"> I agree to the Terms and Conditions <br><br>
+            <input type = "checkbox" name = "I-agree-to-the-privacy-policy" value = "on"> I agree to the Privacy Policy <br><br>
+         </fieldset> <br>
+         <input type="submit" value="Register" /> <input type="submit" value="Clear Form" />
+
+
+</form>
+    
+</body>
+</html>
